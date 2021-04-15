@@ -8,7 +8,7 @@ Gem::Specification.new do |gem|
   gem.version       = DataAnonymization::VERSION
   gem.authors       = ['Sunit Parekh', 'Anand Agrawal', 'Satyam Agarwala']
   gem.email         = %w(parekh.sunit@gmail.com anand.agrawal84@gmail.com satyamag@gmail.com)
-  gem.description   = %q{Data anonymization tool for RDBMS and MongoDB databases}
+  gem.description   = %q{Data anonymization tool for RDBMS}
   gem.summary       = %q{Tool to create anonymized production data dump to use for performance and testing environments.}
   gem.homepage      = 'http://sunitparekh.github.com/data-anonymization'
   gem.license       = 'MIT'

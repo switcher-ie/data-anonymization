@@ -19,10 +19,3 @@ require 'core/table_errors'
 require 'strategy/strategies'
 require 'utils/database'
 require 'core/dsl'
-
-begin
-  require 'mongo'
-  require 'thor/helpers/mongodb_dsl_generator'
-rescue LoadError
-  'Ignoring the mongodb specific libraries if monog driver is not specified in gem'
-end

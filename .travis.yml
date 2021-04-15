@@ -1,6 +1,4 @@
 language: ruby
-services:
-  - mongodb
 before_install: gem install bundler
 before_script: rake empty_dest
 rvm:
