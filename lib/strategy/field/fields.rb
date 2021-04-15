@@ -26,12 +26,7 @@ require 'strategy/field/number/random_float_delta'
 require 'strategy/field/number/random_big_decimal_delta'
 
 # contact
-require 'strategy/field/contact/geojson_base'
 require 'strategy/field/contact/random_phone_number'
-require 'strategy/field/contact/random_address'
-require 'strategy/field/contact/random_zipcode'
-require 'strategy/field/contact/random_city'
-require 'strategy/field/contact/random_province'
 
 # datetime
 require 'strategy/field/datetime/anonymize_time'
