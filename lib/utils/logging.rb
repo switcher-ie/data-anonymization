@@ -5,6 +5,8 @@ module DataAnon
   module Utils
     module Logging
 
+      extend self
+
       def logger
         @@logger ||= (self.logger = Logger.new(STDOUT) )
       end
