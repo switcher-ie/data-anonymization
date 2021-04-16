@@ -15,7 +15,6 @@ Gem::Specification.new do |gem|
 
 
   gem.files         = `git ls-files`.split($/).select { |f| !f.match(/^sample-data/) }
-  gem.executables   = 'datanon'
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ['lib']
 
@@ -23,5 +22,4 @@ Gem::Specification.new do |gem|
   gem.add_dependency('activesupport', '~> 6.0')
   gem.add_dependency('powerbar', '~> 1.0')
   gem.add_dependency('parallel', '~> 1.12')
-  gem.add_dependency('thor', '~> 0.20.3')
 end
